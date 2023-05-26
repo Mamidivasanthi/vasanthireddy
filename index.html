@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav id="fix">
+            
+            <img src="https://tse4.mm.bing.net/th?id=OIP.uoslR1haj5yHMiMY9FraogHaHa&pid=Api&P=0" title="Vaas" class="logo" alt="VR">
+            <h2>Vasanthi Reddy</h2>
+           
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <div id="text" >
+                <h1>Hi,I’m <span>Vasanthi Reddy</span></h1><br>
+                <i><em>I am a web Designer and UI/UX designer
+    </em></i>        </div>
+        <div id="header" title="Vaas">
+          
+    </div><br>
+            
+    </div></div>
+    <h1 id="about">About Me</h1>
+  
+<div class="row"> 
+    <div class="column1"><img src="images/trendy.jpg" ></div>
+    <div class="column2"><p>Hi,I’m Vasanthi Reddy.There are many domains that changes the Technology in an 
+        emerging way and web designing is one of the trending one among them.I love to  design Web Pages and I am very passionate towards it.</p>
+    <div class="tab-titles">
+        <p class="tab-links active-link"  onclick="content()">Skills</p>
+        <p class="tab-links" onclick="details()">Education</p>
+        
+    </div>
+<div class="tab-contents" id="skills">See my Skills
+    
+</div>
+<div class="tab-contentss" id="qualification">See my Education Details
+
+</div></div><br>
+
+<div style="display:inline-block" style="width:100vw"> <h1 id="services">My Services</h1></div>
+<div id="container">
+<div id="col1">
+    <h2>Web Design</h2>
+    <p></p>
+    <a href="#">Learn more</a>
+</div>
+<div id="col2">
+    <h2>UI/UX Design</h2>
+    <p></p>
+    <a href="#">Learn more</a>
+</div>
+<div id="col3">
+    <h2>Computer Networks</h2>
+    <p></p>
+    <a href="#">Learn more</a>
+</div>
+</div>
+
+
+<div >
+    <div style="display:inline-block" style="width:100vw"> <h1 id="contact">CONTACT ME</h1></div>
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               
+                <p>vrvasreddy@gmail.com</p>
+                <p>7659883224</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<form>
+    
+</form><script>
+    function content()
+    {
+        const a=document.getElementById("skills");
+        a.innerHTML="<ul><li><span>UI/UX</span><br/>Designing Web/App Interfaces</li><li><span>Web Development</span><br/>Web app Development</li><li><span>Computer Networks</span><br/> Connections between the Devices and more...</li></ul>"
+        
+    }
+    function details()
+    {
+        
+        const b=document.getElementById("qualification");
+        b.innerHTML="<ul><li><span>School</span><br/>Gurukul Vidya Peeth E.M High School,Kadapa</li><li>Grade:9.8</li><li><span>Diploma</span><br/>Govt.Polytechnic for Women,Kadapa</li><li>Grade:9.64</li><li><span>BTECH</span><br/><li>JNTUA College Of Engineering,Pulivendula</li><li>Grade:8.88</li></ul>";
+        document.getElementById("skills").style.display='none';
+    }
+   
+
+    </script>
+</body>
+</html>
